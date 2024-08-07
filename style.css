@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-color: white;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.liens {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+a {
+  color: #0f0f55;
+  text-decoration: none;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat;
+  grid-gap: ;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 50px;
+  /* gap: 30px; */
+  width: 50%;
+}
+.text1 {
+  background-color: white;
+}
+.text2 {
+  background-color: white;
+}
+.tout {
+  background-color: #e9e0e0;
+}
